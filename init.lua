@@ -846,14 +846,23 @@ require('lazy').setup({
   --    end,
   --  },
 
-  { -- Catppuccin colorscheme
-    'catppuccin/nvim',
-    name = 'catppuccin',
+--  { -- Catppuccin colorscheme
+--    'catppuccin/nvim',
+--    name = 'catppuccin',
+--    priority = 1000,
+--    init = function()
+--      -- Load colorscheme here.
+--      vim.cmd.colorscheme 'catppuccin'
+--    end,
+--  },
+
+  { -- Monokai-pro colorscheme
+    'loctvl842/monokai-pro.nvim',
+    name = 'monokai-pro',
     priority = 1000,
     init = function()
-      -- Load colorscheme here.
-      vim.cmd.colorscheme 'catppuccin'
-    end,
+      vim.cmd.colorscheme 'monokai-pro'
+     end,
   },
 
   -- Highlight todo, notes, etc in comments
