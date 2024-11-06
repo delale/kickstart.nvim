@@ -860,9 +860,6 @@ require('lazy').setup({
     'loctvl842/monokai-pro.nvim',
     name = 'monokai-pro',
     priority = 1000,
-    init = function()
-      vim.cmd.colorscheme 'monokai-pro'
-    end,
   },
   --
   -- Highlight todo, notes, etc in comments
