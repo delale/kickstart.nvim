@@ -852,25 +852,62 @@ require('lazy').setup({
   --    end,
   --  },
 
-  { -- Catppuccin colorscheme
-    'catppuccin/nvim',
-    name = 'catppuccin',
-    priority = 1000,
-    -- init = function()
-    --   -- Load colorscheme here.
-    --   vim.cmd.colorscheme 'catppuccin-mocha'
-    -- end,
-  },
+  -- { -- Catppuccin colorscheme
+  --   'catppuccin/nvim',
+  --   name = 'catppuccin',
+  --   priority = 1000,
+  --   -- init = function()
+  --   --   -- Load colorscheme here.
+  --   --   vim.cmd.colorscheme 'catppuccin-mocha'
+  --   -- end,
+  -- },
   --
   { -- Monokai-pro colorscheme
     'loctvl842/monokai-pro.nvim',
     name = 'monokai-pro',
     priority = 1000,
+    -- init = function()
+    --   -- Load colorscheme here
+    --   vim.cmd.colorscheme 'monokai-pro-spectrum'
+    -- end,
+  },
+  { -- Tokyonight colorscheme
+    'folke/tokyonight.nvim',
+    name = 'tokyonight',
+    priority = 1000,
     init = function()
       -- Load colorscheme here
-      vim.cmd.colorscheme 'monokai-pro-spectrum'
+      vim.cmd.colorscheme 'tokyonight'
     end,
   },
+  { -- Dracula colorscheme
+    'Mofiqul/dracula.nvim',
+    name = 'dracula',
+    priority = 1000,
+    -- init = function()
+    --   -- Load colorscheme here
+    --   vim.cmd.colorscheme 'dracula'
+    -- end,
+  },
+  { -- Tender colorscheme
+    'jacoborus/tender.vim',
+    name = 'tender',
+    priority = 1000,
+    -- init = function()
+    --   -- Load colorscheme here
+    --   vim.cmd.colorscheme 'tender'
+    -- end,
+  },
+  { -- Oxocarbon colorscheme
+    'nyoom-engineering/oxocarbon.nvim',
+    name = 'oxocarbon',
+    priority = 1000,
+    -- init = function()
+    --   -- Load colorscheme here
+    --   vim.cmd.colorscheme 'oxocarbon'
+    -- end,
+  },
+
   --
   -- Highlight todo, notes, etc in comments
   { 'folke/todo-comments.nvim', event = 'VimEnter', dependencies = { 'nvim-lua/plenary.nvim' }, opts = { signs = false } },
