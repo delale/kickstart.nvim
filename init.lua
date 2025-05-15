@@ -873,7 +873,7 @@ require('lazy').setup({
   },
   { -- Tokyonight colorscheme
     'folke/tokyonight.nvim',
-    name = 'tokyonight',
+    name = 'tokyonight-night',
     priority = 1000,
     init = function()
       -- Load colorscheme here
