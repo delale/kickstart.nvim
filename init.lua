@@ -907,6 +907,33 @@ require('lazy').setup({
     --   vim.cmd.colorscheme 'oxocarbon'
     -- end,
   },
+  { -- Gruvbox colorscheme
+    'ellisonleao/gruvbox.nvim',
+    name = 'gruvbox',
+    priority = 1000,
+    -- init = function()
+    --   -- Load colorscheme here
+    --   vim.cmd.colorscheme 'oxocarbon'
+    -- end,
+  },
+  { -- OneDarkPro colorscheme
+    'olimorris/onedarkpro.nvim',
+    name = 'onedarkpro',
+    priority = 1000,
+    -- init = function()
+    --   -- Load colorscheme here
+    --   vim.cmd.colorscheme 'oxocarbon'
+    -- end,
+  },
+  { -- Evergarden colorscheme
+    'everviolet/nvim',
+    name = 'evergarden',
+    priority = 1000,
+    -- init = function()
+    --   -- Load colorscheme here
+    --   vim.cmd.colorscheme 'oxocarbon'
+    -- end,
+  },
 
   --
   -- Highlight todo, notes, etc in comments
