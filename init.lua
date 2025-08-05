@@ -879,14 +879,14 @@ require('lazy').setup({
       vim.cmd.colorscheme 'onedark_vivid'
     end,
   },
-  { -- Kanagawa colorscheme
-    'rebelot/kanagawa.nvim',
-    name = 'kanagawa',
-    priority = 1000,
-  },
   { -- bamboo colorscheme
     'ribru17/bamboo.nvim',
     name = 'bamboo',
+    priority = 1000,
+  },
+  { -- modus-themes colorscheme
+    'miikanissi/modus-themes.nvim',
+    name = 'modus',
     priority = 1000,
   },
 
