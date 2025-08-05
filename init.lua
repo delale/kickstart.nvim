@@ -852,59 +852,13 @@ require('lazy').setup({
   --    end,
   --  },
 
-  -- { -- Catppuccin colorscheme
-  --   'catppuccin/nvim',
-  --   name = 'catppuccin',
-  --   priority = 1000,
-  --   -- init = function()
-  --   --   -- Load colorscheme here.
-  --   --   vim.cmd.colorscheme 'catppuccin-mocha'
-  --   -- end,
-  -- },
-  --
-  { -- Monokai-pro colorscheme
-    'loctvl842/monokai-pro.nvim',
-    name = 'monokai-pro',
+  { -- Catppuccin colorscheme
+    'catppuccin/nvim',
+    name = 'catppuccin',
     priority = 1000,
     -- init = function()
-    --   -- Load colorscheme here
-    --   vim.cmd.colorscheme 'monokai-pro-spectrum'
-    -- end,
-  },
-  { -- Tokyonight colorscheme
-    'folke/tokyonight.nvim',
-    name = 'tokyonight-night',
-    priority = 1000,
-    init = function()
-      -- Load colorscheme here
-      vim.cmd.colorscheme 'tokyonight'
-    end,
-  },
-  { -- Dracula colorscheme
-    'Mofiqul/dracula.nvim',
-    name = 'dracula',
-    priority = 1000,
-    -- init = function()
-    --   -- Load colorscheme here
-    --   vim.cmd.colorscheme 'dracula'
-    -- end,
-  },
-  { -- Tender colorscheme
-    'jacoborus/tender.vim',
-    name = 'tender',
-    priority = 1000,
-    -- init = function()
-    --   -- Load colorscheme here
-    --   vim.cmd.colorscheme 'tender'
-    -- end,
-  },
-  { -- Oxocarbon colorscheme
-    'nyoom-engineering/oxocarbon.nvim',
-    name = 'oxocarbon',
-    priority = 1000,
-    -- init = function()
-    --   -- Load colorscheme here
-    --   vim.cmd.colorscheme 'oxocarbon'
+    --   -- Load colorscheme here.
+    --   vim.cmd.colorscheme 'catppuccin-mocha'
     -- end,
   },
   { -- Gruvbox colorscheme
@@ -920,19 +874,20 @@ require('lazy').setup({
     'olimorris/onedarkpro.nvim',
     name = 'onedarkpro',
     priority = 1000,
-    -- init = function()
-    --   -- Load colorscheme here
-    --   vim.cmd.colorscheme 'oxocarbon'
-    -- end,
+    init = function()
+      -- Load colorscheme here
+      vim.cmd.colorscheme 'onedark_vivid'
+    end,
   },
-  { -- Evergarden colorscheme
-    'everviolet/nvim',
-    name = 'evergarden',
+  { -- Kanagawa colorscheme
+    'rebelot/kanagawa.nvim',
+    name = 'kanagawa',
     priority = 1000,
-    -- init = function()
-    --   -- Load colorscheme here
-    --   vim.cmd.colorscheme 'oxocarbon'
-    -- end,
+  },
+  { -- bamboo colorscheme
+    'ribru17/bamboo.nvim',
+    name = 'bamboo',
+    priority = 1000,
   },
 
   --
